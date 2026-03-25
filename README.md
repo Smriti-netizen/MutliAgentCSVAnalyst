@@ -118,14 +118,7 @@ Open [http://localhost:8501](http://localhost:8501) in your browser.
 | Data processing    | pandas, numpy                       |
 | Report export      | python-docx                         |
 
-## Deploy to Streamlit Cloud
-
-1. Push this repo to GitHub.
-2. Go to [share.streamlit.io](https://share.streamlit.io) and sign in with GitHub.
-3. Select this repo, branch `master`, and file `app.py`.
-4. In **Advanced settings > Secrets**, add:
-   ```
-   GOOGLE_API_KEY = "your_key_here"
+GOOGLE_API_KEY = "your_key_here"
    ```
 5. Click **Deploy**.
 
