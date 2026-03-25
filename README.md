@@ -120,8 +120,3 @@ Open [http://localhost:8501](http://localhost:8501) in your browser.
 
 GOOGLE_API_KEY = "your_key_here"
    ```
-5. Click **Deploy**.
-
-## License
-
-MIT
