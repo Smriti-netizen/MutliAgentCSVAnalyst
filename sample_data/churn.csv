@@ -1,0 +1,98 @@
+customerID,gender,SeniorCitizen,Partner,Dependents,tenure,PhoneService,MultipleLines,InternetService,OnlineSecurity,Contract,PaperlessBilling,PaymentMethod,MonthlyCharges,TotalCharges,Churn
+1829-GKWMQ,Male,0,Yes,No,12,Yes,No,DSL,Yes,Month-to-month,Yes,Electronic check,56.25,625.38,Yes
+7340-BFTML,Female,0,No,Yes,45,Yes,Yes,Fiber optic,No,Two year,No,Bank transfer (automatic),89.40,4072.55,No
+4920-RLPNX,Female,1,Yes,Yes,3,No,No phone service,DSL,No,Month-to-month,Yes,Mailed check,29.85,79.60,Yes
+6381-VJKTH,Male,0,No,No,67,Yes,No,Fiber optic,Yes,One year,Yes,Credit card (automatic),104.50,7021.85,No
+2039-MKNPF,Female,0,Yes,Yes,24,Yes,Yes,DSL,Yes,Two year,No,Bank transfer (automatic),62.30,1485.72,No
+8472-HTQKL,Male,1,No,No,1,Yes,No,Fiber optic,No,Month-to-month,Yes,Electronic check,95.20,95.20,Yes
+3194-XPLWM,Female,0,Yes,No,55,Yes,Yes,DSL,No,One year,No,Mailed check,48.75,2631.48,No
+5567-RNQJF,Male,0,No,Yes,8,No,No phone service,No,No internet service,Month-to-month,Yes,Electronic check,20.05,140.92,No
+9213-BVCTW,Female,1,Yes,No,33,Yes,No,Fiber optic,Yes,Two year,No,Credit card (automatic),78.90,2584.30,No
+6748-KMDPQ,Male,0,No,No,15,Yes,Yes,DSL,No,Month-to-month,Yes,Electronic check,44.60,639.45,Yes
+1053-WLRFJ,Female,0,Yes,Yes,60,Yes,No,DSL,Yes,Two year,No,Bank transfer (automatic),53.15,3139.28,No
+4387-GNTHX,Male,1,No,No,5,Yes,Yes,Fiber optic,No,Month-to-month,Yes,Electronic check,102.35,481.73,Yes
+7721-PMKCV,Female,0,Yes,No,42,No,No phone service,DSL,Yes,One year,No,Mailed check,35.20,1458.92,No
+2894-XLWQF,Male,0,No,Yes,18,Yes,No,Fiber optic,No,Month-to-month,Yes,Credit card (automatic),87.65,1547.33,Yes
+5163-RBNMK,Female,0,Yes,Yes,70,Yes,Yes,DSL,Yes,Two year,No,Bank transfer (automatic),67.80,4796.18,No
+8436-WTHJQ,Male,1,No,No,2,Yes,No,Fiber optic,No,Month-to-month,Yes,Electronic check,99.45,178.52,Yes
+3679-KLMPN,Female,0,Yes,No,38,Yes,Yes,DSL,No,One year,No,Mailed check,51.30,1919.87,No
+6012-BVCXR,Male,0,No,Yes,50,No,No phone service,No,No internet service,Two year,No,Credit card (automatic),19.85,962.78,No
+9345-QRTLM,Female,1,Yes,No,7,Yes,No,Fiber optic,Yes,Month-to-month,Yes,Electronic check,82.70,558.42,Yes
+1678-XNWPK,Male,0,No,No,28,Yes,Yes,DSL,No,Month-to-month,No,Bank transfer (automatic),46.95,1284.63,No
+4901-HJFML,Female,0,Yes,Yes,63,Yes,No,DSL,Yes,Two year,No,Mailed check,58.40,3629.15,No
+7234-TCRBQ,Male,0,No,No,10,Yes,Yes,Fiber optic,No,Month-to-month,Yes,Electronic check,107.20,1042.37,Yes
+3567-WLNXF,Female,1,Yes,No,35,No,No phone service,DSL,Yes,One year,No,Credit card (automatic),33.75,1151.28,No
+6890-KMPQT,Male,0,No,Yes,22,Yes,No,Fiber optic,No,Month-to-month,Yes,Electronic check,91.55,1984.62,Yes
+2123-BRTJX,Female,0,Yes,Yes,48,Yes,Yes,DSL,No,Two year,No,Bank transfer (automatic),55.80,2648.73,No
+5456-QNLWM,Male,0,No,No,4,Yes,No,Fiber optic,Yes,Month-to-month,Yes,Mailed check,76.30,275.88,Yes
+8789-XKFPN,Female,1,Yes,No,57,Yes,Yes,DSL,Yes,One year,No,Credit card (automatic),64.15,3607.42,No
+1012-RVHTL,Male,0,No,Yes,30,No,No phone service,No,No internet service,Two year,No,Electronic check,21.50,615.38,No
+4345-WMBJQ,Female,0,Yes,No,14,Yes,No,Fiber optic,No,Month-to-month,Yes,Bank transfer (automatic),98.70,1361.25,Yes
+7678-KNRTX,Male,0,No,Yes,40,Yes,Yes,DSL,Yes,One year,No,Mailed check,49.25,1940.53,No
+2901-PLCWF,Female,1,Yes,No,65,Yes,No,DSL,No,Two year,No,Credit card (automatic),42.60,2739.28,No
+6234-HTQMK,Male,0,No,No,9,Yes,Yes,Fiber optic,No,Month-to-month,Yes,Electronic check,110.85,967.32,Yes
+9567-XBNRJ,Female,0,Yes,Yes,52,No,No phone service,DSL,Yes,Two year,No,Bank transfer (automatic),37.40,1905.67,No
+3890-WKFPT,Male,0,No,No,19,Yes,No,Fiber optic,Yes,Month-to-month,No,Mailed check,84.50,1575.88,No
+7123-QLMXN,Female,1,Yes,No,72,Yes,Yes,DSL,No,One year,Yes,Credit card (automatic),60.75,4324.18,No
+1456-RTBJW,Male,0,No,Yes,6,Yes,No,Fiber optic,No,Month-to-month,Yes,Electronic check,93.20,529.73,Yes
+4789-KNPQL,Female,0,Yes,Yes,44,Yes,Yes,DSL,Yes,Two year,No,Bank transfer (automatic),52.85,2295.42,No
+8012-XWFTM,Male,0,No,No,26,No,No phone service,No,No internet service,Month-to-month,No,Mailed check,20.70,508.55,No
+2345-HLBRK,Female,1,Yes,No,36,Yes,No,Fiber optic,No,One year,Yes,Electronic check,88.15,3143.67,No
+5678-QNCWX,Male,0,No,Yes,58,Yes,Yes,DSL,Yes,Two year,No,Credit card (automatic),66.40,3821.53,No
+9901-WTKLF,Female,0,Yes,No,11,Yes,No,Fiber optic,Yes,Month-to-month,Yes,Bank transfer (automatic),79.30,842.18,Yes
+3234-BNRPJ,Male,0,No,No,47,No,No phone service,DSL,No,One year,No,Mailed check,31.55,1463.72,No
+6567-XKQMT,Female,1,Yes,Yes,21,Yes,Yes,Fiber optic,No,Month-to-month,Yes,Electronic check,105.70,2189.35,Yes
+1890-WLHBN,Male,0,No,No,69,Yes,No,DSL,Yes,Two year,No,Credit card (automatic),57.90,3995.63,No
+5123-RTFQK,Female,0,Yes,No,16,Yes,Yes,DSL,No,Month-to-month,No,Bank transfer (automatic),43.25,662.48,Yes
+8456-KNXWP,Male,0,No,Yes,54,No,No phone service,No,No internet service,Two year,No,Mailed check,22.35,1177.25,No
+2789-QLBTM,Female,1,Yes,No,32,Yes,No,Fiber optic,No,One year,Yes,Electronic check,96.40,3044.87,No
+6012-XNRJK,Male,0,No,Yes,43,Yes,Yes,DSL,Yes,Two year,No,Credit card (automatic),61.50,2614.72,No
+9345-WHFPL,Female,0,Yes,No,8,Yes,No,Fiber optic,Yes,Month-to-month,Yes,Bank transfer (automatic),81.75,624.38,Yes
+3678-BNTQX,Male,0,No,No,62,Yes,Yes,DSL,No,One year,No,Mailed check,47.90,2950.15,No
+7901-RKWLF,Female,1,Yes,Yes,25,No,No phone service,DSL,Yes,Two year,No,Electronic check,36.10,872.93,No
+1234-XNMPQ,Male,0,No,No,13,Yes,No,Fiber optic,No,Month-to-month,Yes,Credit card (automatic),100.80,1280.45,Yes
+4567-QHBTK,Female,0,Yes,No,51,Yes,Yes,DSL,Yes,One year,No,Bank transfer (automatic),54.65,2767.38,No
+7890-WLRXN,Male,0,No,Yes,37,Yes,No,Fiber optic,No,Month-to-month,No,Mailed check,86.30,3163.52,Yes
+2113-KNTPF,Female,1,Yes,Yes,66,No,No phone service,DSL,No,Two year,No,Electronic check,30.45,1979.63,No
+5446-XBQWM,Male,0,No,No,20,Yes,Yes,Fiber optic,Yes,Month-to-month,Yes,Credit card (automatic),75.60,1482.37,Yes
+8779-RLHFJ,Female,0,Yes,No,46,Yes,No,DSL,Yes,One year,No,Bank transfer (automatic),50.35,2286.48,No
+1102-WNTKQ,Male,0,No,Yes,3,Yes,Yes,Fiber optic,No,Month-to-month,Yes,Electronic check,108.45,295.72,Yes
+4435-XQNBP,Female,1,Yes,No,59,No,No phone service,No,No internet service,Two year,No,Mailed check,19.90,1124.38,No
+7768-KLRWF,Male,0,No,No,29,Yes,No,DSL,No,Month-to-month,No,Credit card (automatic),41.70,1169.53,No
+2091-BHTXQ,Female,0,Yes,Yes,71,Yes,Yes,Fiber optic,Yes,One year,Yes,Bank transfer (automatic),73.85,5213.28,No
+5424-WNLFM,Male,0,No,No,17,Yes,No,DSL,Yes,Month-to-month,Yes,Electronic check,59.20,976.42,Yes
+8757-XRQPK,Female,1,Yes,No,41,No,No phone service,DSL,No,Two year,No,Mailed check,34.50,1384.67,No
+1080-KNTBJ,Male,0,No,Yes,56,Yes,Yes,Fiber optic,No,One year,No,Credit card (automatic),92.75,5184.38,No
+4413-QLWXF,Female,0,Yes,Yes,23,Yes,No,DSL,Yes,Month-to-month,No,Bank transfer (automatic),47.15,1054.73,No
+7746-XBNRP,Male,0,No,No,68,Yes,Yes,Fiber optic,Yes,Two year,Yes,Electronic check,83.40,5641.52,No
+2079-WKHTL,Female,1,Yes,No,31,No,No phone service,No,No internet service,Month-to-month,No,Mailed check,21.25,628.87,No
+5302-RNFQK,Male,0,No,Yes,49,Yes,No,DSL,No,One year,No,Credit card (automatic),39.80,1920.45,No
+8635-XLBWM,Female,0,Yes,No,10,Yes,Yes,Fiber optic,No,Month-to-month,Yes,Bank transfer (automatic),101.60,986.38,Yes
+1968-QNTPJ,Male,0,No,No,64,Yes,No,DSL,Yes,Two year,No,Electronic check,56.70,3599.27,No
+4291-XKHWF,Female,1,Yes,Yes,27,No,No phone service,DSL,No,Month-to-month,Yes,Mailed check,28.35,735.68,Yes
+7624-BNRTQ,Male,0,No,No,53,Yes,Yes,Fiber optic,Yes,One year,No,Credit card (automatic),77.90,4099.53,No
+2957-WLXMK,Female,0,Yes,No,39,Yes,No,DSL,No,Two year,No,Bank transfer (automatic),45.55,1726.42,No
+6280-XQNFP,Male,0,No,Yes,7,Yes,Yes,Fiber optic,No,Month-to-month,Yes,Electronic check,109.30,725.48,Yes
+9613-KHRBL,Female,1,Yes,Yes,61,No,No phone service,DSL,Yes,One year,No,Mailed check,38.65,2318.73,No
+3946-BNTWX,Male,0,No,No,34,Yes,No,Fiber optic,No,Month-to-month,No,Credit card (automatic),90.45,3045.62,Yes
+7279-XLQFK,Female,0,Yes,No,48,Yes,Yes,DSL,Yes,Two year,No,Bank transfer (automatic),63.20,3003.87,No
+1502-WRNPJ,Male,0,No,Yes,15,Yes,No,Fiber optic,Yes,Month-to-month,Yes,Electronic check,80.55,1178.63,Yes
+4835-XKBTM,Female,1,Yes,No,70,No,No phone service,No,No internet service,Two year,No,Mailed check,18.75,1272.88,No
+8168-QLHWF,Male,0,No,No,26,Yes,Yes,DSL,No,One year,No,Credit card (automatic),52.40,1332.48,No
+2491-BNRXK,Female,0,Yes,Yes,43,Yes,No,Fiber optic,No,Month-to-month,Yes,Bank transfer (automatic),97.15,4147.53,Yes
+5824-XWTQP,Male,0,No,No,57,Yes,Yes,DSL,Yes,Two year,No,Electronic check,65.80,3740.67,No
+9157-KLNFJ,Female,1,Yes,No,19,No,No phone service,DSL,No,Month-to-month,No,Mailed check,32.90,595.42,Yes
+3480-QRXWM,Male,0,No,Yes,36,Yes,No,Fiber optic,Yes,One year,Yes,Credit card (automatic),74.35,2646.73,No
+6813-XBNPK,Female,0,Yes,Yes,2,Yes,Yes,Fiber optic,No,Month-to-month,Yes,Electronic check,106.50,183.37,Yes
+1146-WKTQF,Male,0,No,No,65,Yes,No,DSL,No,Two year,No,Bank transfer (automatic),40.25,2586.58,No
+4479-XLHRJ,Female,1,Yes,No,50,No,No phone service,DSL,Yes,One year,No,Mailed check,35.70,1755.42,No
+7702-BNQWX,Male,0,No,Yes,11,Yes,Yes,Fiber optic,No,Month-to-month,Yes,Credit card (automatic),94.80,1012.55,Yes
+2035-XRNFP,Female,0,Yes,No,44,Yes,No,DSL,Yes,Two year,No,Electronic check,58.95,2564.37,No
+5368-WLBTK,Male,0,No,No,28,Yes,Yes,Fiber optic,Yes,Month-to-month,No,Bank transfer (automatic),85.10,2353.68,No
+8691-QKXWM,Female,1,Yes,Yes,60,No,No phone service,No,No internet service,One year,No,Mailed check,23.45,1377.42,No
+3924-XNRPJ,Male,0,No,No,37,Yes,No,DSL,No,Month-to-month,Yes,Electronic check,44.80,1628.53,Yes
+7257-BLHFQ,Female,0,Yes,No,53,Yes,Yes,Fiber optic,No,Two year,No,Credit card (automatic),89.65,4721.87,No
+1580-XQNTK,Male,0,No,Yes,5,Yes,No,Fiber optic,Yes,Month-to-month,Yes,Bank transfer (automatic),78.30,361.82,Yes
+4913-WKRXF,Female,1,Yes,Yes,69,No,No phone service,DSL,Yes,One year,No,Mailed check,37.55,2571.28,No
+8246-BNLQP,Male,0,No,No,22,Yes,Yes,Fiber optic,No,Month-to-month,No,Electronic check,103.20,2240.63,Yes
+2579-XHWTJ,Female,0,Yes,No,46,Yes,No,DSL,No,Two year,No,Credit card (automatic),49.70,2256.47,No
