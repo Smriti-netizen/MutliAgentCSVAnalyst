@@ -118,4 +118,3 @@ Open [http://localhost:8501](http://localhost:8501) in your browser.
 | Data processing    | pandas, numpy                       |
 | Report export      | python-docx                         |
 
-GOOGLE_API_KEY = "your_key_here"
