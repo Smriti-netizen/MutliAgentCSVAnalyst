@@ -52,6 +52,13 @@ MAX_TOTAL_SIZE_MB = 25
 # ── Validate API key on startup ──────────────────────────────────────────────
 
 api_key = os.getenv("GOOGLE_API_KEY", "")
+
+if not api_key:
+    try:
+        api_key = st.secrets["GOOGLE_API_KEY"]
+    except (KeyError, FileNotFoundError):
+        api_key = ""
+
 if not api_key:
     st.error(
         "**GOOGLE_API_KEY not found.** "
@@ -60,6 +67,8 @@ if not api_key:
         "Get a free key at https://aistudio.google.com/apikey"
     )
     st.stop()
+
+os.environ["GOOGLE_API_KEY"] = api_key
 
 # ── Page config ──────────────────────────────────────────────────────────────
 
