@@ -5,6 +5,7 @@ class AnalystState(TypedDict, total=False):
     user_question: str
     dataset_info: str
     df_path: str
+    all_df_paths: list[str]
     generated_code: str
     code_output: str
     code_error: str

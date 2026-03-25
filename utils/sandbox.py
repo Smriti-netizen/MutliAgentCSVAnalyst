@@ -10,26 +10,23 @@ def _blocked(*_args, **_kwargs):
     raise PermissionError("This operation is not allowed in the sandbox.")
 
 
-# Builtins that generated code must never call.
 _DANGEROUS_NAMES = {
     "open", "exec", "eval", "compile",
     "__import__", "breakpoint", "exit", "quit",
 }
 
 
-def run_sandboxed(code: str, df_path: str) -> tuple[str, str]:
+def run_sandboxed(code: str, df_path: str,
+                  all_df_paths: list[str] | None = None) -> tuple[str, str]:
     """Execute *code* in a restricted namespace and return (stdout, error).
 
-    The namespace exposes only ``pd`` (pandas), ``np`` (numpy), and ``df``
-    (the DataFrame loaded from *df_path*).  Dangerous builtins are replaced
-    with a stub that raises ``PermissionError``.
+    The namespace exposes ``pd``, ``np``, and one or more DataFrames:
+    - ``df`` is always the primary DataFrame (from *df_path*).
+    - If *all_df_paths* has multiple files, ``df1``, ``df2``, etc. are also
+      available.
 
-    Returns
-    -------
-    (output, error) : tuple[str, str]
-        *output* contains captured stdout on success; *error* contains the
-        formatted traceback on failure.  Exactly one of the two will be
-        non-empty.
+    Dangerous builtins are replaced with a stub that raises
+    ``PermissionError``.
     """
     df = pd.read_csv(df_path)
 
@@ -44,6 +41,10 @@ def run_sandboxed(code: str, df_path: str) -> tuple[str, str]:
         "np": np,
         "df": df,
     }
+
+    if all_df_paths and len(all_df_paths) > 1:
+        for i, path in enumerate(all_df_paths):
+            namespace[f"df{i + 1}"] = pd.read_csv(path)
 
     stdout_capture = io.StringIO()
     old_stdout = sys.stdout

@@ -4,7 +4,12 @@ from utils.sandbox import run_sandboxed
 
 def executor_node(state: AnalystState) -> dict:
     """LangGraph node: runs the generated code in a sandboxed environment."""
-    output, error = run_sandboxed(state["generated_code"], state["df_path"])
+    all_paths = state.get("all_df_paths")
+    output, error = run_sandboxed(
+        state["generated_code"],
+        state["df_path"],
+        all_df_paths=all_paths,
+    )
 
     if error:
         return {

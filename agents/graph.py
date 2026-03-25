@@ -7,14 +7,15 @@ from agents.coder import coder_node
 from agents.executor import executor_node
 from agents.reviewer import reviewer_node
 from agents.state import AnalystState
-from utils.data_profiler import profile_dataset
+from utils.data_profiler import profile_all_datasets
 
 MAX_RETRIES = 3
 
 
 def profiler_node(state: AnalystState) -> dict:
-    """LangGraph node: extracts schema and sample rows from the CSV."""
-    dataset_info = profile_dataset(state["df_path"])
+    """LangGraph node: extracts schema and sample rows from all CSVs."""
+    paths = state.get("all_df_paths") or [state["df_path"]]
+    dataset_info = profile_all_datasets(paths)
     return {"dataset_info": dataset_info}
 
 
