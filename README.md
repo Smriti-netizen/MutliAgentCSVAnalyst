@@ -6,6 +6,11 @@ A Streamlit app that uses **LangGraph** and **Google Gemini** to answer question
 
 Project setup in progress. More docs and setup steps will be added soon.
 
-## Repo
+## Git branch
 
-`git@github.com:Smriti-netizen/MutliAgentCSVAnalyst.git`
+This repo uses **`master`** as the default branch (not `main`). Example:
+
+```bash
+git push -u origin master
+```
+
